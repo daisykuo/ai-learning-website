@@ -183,7 +183,7 @@ const topicContents = {
                         <p style="font-size: 1.2em; line-height: 2; margin-bottom: 20px;">
                             來玩玩看吧！這裡設定了兩個角色，作家和老師，你可以隨意輸入主題，觀察 AI 如何像人類一樣思考與修改文章！
                         </p>
-                        <button class="nav-button" onclick="window.open('YOUR_STREAMLIT_URL', '_blank')">
+                        <button class="nav-button" onclick="window.open('https://ixqvzzfzpyxa24qd3enmnu.streamlit.app/', '_blank')">
                             開啟 AI 實作練習
                         </button>
                     </div>
@@ -430,4 +430,5 @@ function updateNavigationButtons() {
         nextBtn.disabled = false;
     }
 }
+
 
