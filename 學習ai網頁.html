@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI學習網站 - 輕鬆認識AI</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <!-- 引導頁面1 -->
+     <div id="global-onboarding-bg"></div>
+    <div class="onboarding-screen" id="onboarding-1">
+        <div class="onboarding-content">
+            <h1 class="onboarding-title">歡迎來到學習ai的網站</h1>
+        </div>
+        <div class="progress-dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <p class="click-hint">點擊進入下一頁</p>
+    </div>
+    <!-- 引導頁面2 -->
+    <div class="onboarding-screen" id="onboarding-2" style="display: none;">
+        <div class="onboarding-content">
+            <p class="onboarding-text">這個網站是為想要學習AI的朋友們，統整一些知識與作法，讓大家能快速上手AI！</p>
+        </div>
+        <div class="progress-dots">
+            <div class="dot"></div>
+            <div class="dot active"></div>
+            <div class="dot"></div>
+        </div>
+        <p class="click-hint">點擊進入下一頁</p>
+    </div>
+    <!-- 引導頁面3 -->
+    <div class="onboarding-screen" id="onboarding-3" style="display: none;">
+        <div class="onboarding-content">
+            <p class="onboarding-text">讓我們一步步來，先從了解AI是什麼開始吧！</p>
+            <h2 class="onboarding-title">什麼是AI？</h2>
+        </div>
+        <div class="progress-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot active"></div>
+        </div>
+        <p class="click-hint">點擊進入第一個主題</p>
+    </div>
+    <!-- 主題一：引導頁面4 -->
+    <div class="onboarding-screen" id="onboarding-4" style="display: none;">
+        <div class="onboarding-content">
+            <h2 class="onboarding-title">什麼是AI（人工智慧）</h2>
+            <p class="onboarding-text">AI，也就是Artificial Intelligence 人工智慧，讓機器透過學習，模仿人類的思考方式與行為。<br>AI是學習、會判斷、能幫人做事的電腦程式，你可以把它當成日常生活的幫手、你的數學家教、寫程式的助手等。</p>
+        </div>
+        <div class="progress-dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+        </div>
+        <p class="click-hint">點擊進入下一頁</p>
+    </div>
+    <!-- 主題一：引導頁面5 -->
+    <div class="onboarding-screen" id="onboarding-5" style="display: none;">
+        <div class="onboarding-content">
+            <h2 class="onboarding-title">生活中的 AI</h2>
+            <p class="onboarding-text">其實 AI 已經融入在我們的生活中，像是網路購物時平台透過分析你的消費和瀏覽紀錄，找出你可能會喜歡的產品並推薦給你。</p>
+            <h2 class="onboarding-text">如果我打開 AI 跟它對話，它可以幫我做什麼呢？</h2>
+        </div>
+        <div class="progress-dots">
+            <div class="dot"></div>
+            <div class="dot active"></div>
+        </div>
+        <p class="click-hint">點擊進入第二個主題</p>
+    </div>
+    <!-- 主題二：引導頁面6 -->
+    <div class="onboarding-screen" id="onboarding-6" style="display: none;">
+        <div class="onboarding-content">
+            <h2 class="onboarding-title">AI 可以做什麼</h2>
+            <p class="onboarding-text">AI 的用途非常廣泛，不管是工作上將資料整理成報告、學習上讓上課錄音檔轉成簡報說明，日常生活中的大小事也都能請教AI。</p>
+        </div>
+        <div class="progress-dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+        </div>
+        <p class="click-hint">點擊進入下一頁</p>
+    </div>
+    <!-- 主題二：引導頁面7 -->
+    <div class="onboarding-screen" id="onboarding-7" style="display: none;">
+        <div class="onboarding-content">
+            <h2 class="onboarding-title">如何使用AI</h2>
+            <p class="onboarding-text">現在網路上有許多可以免費使用的AI，像是Chatgpt、Claude、Copilot、Gemini等...<br>接下來讓我們進入網站，一步步地學習如何使用AI吧！</p>
+        </div>
+        <div class="progress-dots">
+            <div class="dot"></div>
+            <div class="dot active"></div>
+        </div>
+        <p class="click-hint">點擊進入主網頁</p>
+    </div>
+
+    <!-- 頂部導航列 -->
+    <header class="top-bar">
+        <div class="logo-section">
+            <h1 class="site-title">AI學習網站</h1>
+        </div>
+        <nav class="nav-menu" id="nav-menu">
+            <button class="nav-button" id="intro-btn">網頁介紹</button>
+            <div class="font-size-control">
+                <span class="control-label">字體：</span>
+                <button class="size-btn" id="font-small">小</button>
+                <button class="size-btn active" id="font-medium">中</button>
+                <button class="size-btn" id="font-large">大</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 主要內容區 -->
+    <main id="main-website" class="main-content">
+        <!-- 四大學習主題按鈕 -->
+        <section class="topics-section">
+            <div class="topics-grid">
+                <button class="topic-button" data-topic="1">
+                    <span class="topic-number">1</span>
+                    <span class="topic-title topic-small">什麼是AI</span>
+                </button>
+
+                <button class="topic-button" data-topic="2">
+                    <span class="topic-number">2</span>
+                    <span class="topic-title">AI可以做什麼</span>
+                </button>
+
+                <button class="topic-button" data-topic="3">
+                    <span class="topic-number">3</span>
+                    <span class="topic-title">如何使用AI</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 學習內容區（初始隱藏） -->
+        <section class="content-section" id="content-section" style="display: none;">
+            <div class="content-area" id="content-area">
+                <!-- 動態載入內容 -->
+            </div>
+        </section>
+    </main>
+
+    <!-- 網頁介紹彈窗 -->
+    <div class="modal" id="intro-modal">
+        <div class="modal-content">
+            <button class="close-btn" id="close-modal">×</button>
+            <h2 class="modal-title">網頁介紹</h2>
+            <div class="modal-body">
+                <p class="intro-text">這個網站是為想要學習AI的朋友們，統整一些知識與作法，讓大家能快速上手ai！</p>
+                <h3 class="intro-subtitle">操作說明：</h3>
+                <ul class="intro-list">
+                    <li>1️. 點擊圓圈，便可學習該主題</li>
+                    <li>2️. 學習完該畫面的內容後請點擊畫面即可跳轉下一畫面</li>
+                
+                </ul>
+                <p class="intro-footer">💡 提示：點擊上方的「小」「中」「大」按鈕，可以調整字體大小喔！</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="action.js"></script>
+</body>
+</html>
