@@ -20,9 +20,9 @@ const topicContents = {
                     
                     <div style="background: white; padding: 30px; border-radius: 20px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
                         <h3 style="color: #56beff; margin-bottom: 20px;">簡單來說</h3>
-                        <p style="font-size: 1.2em; line-height: 2;">
+                        <h3 style=" line-height: 2;">
                             AI，也就是Artificial Intelligence 人工智慧，<strong>讓機器透過學習，模仿人類的思考方式與行為</strong>。<br>簡單來說，人類給機器很多資料，可以是關於醫學、科學、財務的專業知識，也可以是貓咪的照片、食譜等，而機器會透過這些資料學習，當你提出問題時機器便能根據訓練結果給出答案。<br><strong>AI是會學習、會判斷、能幫人做事的電腦程式</strong>，你可以把它當成日常生活的幫手、你的數學家教、寫程式的助手等。
-                        </p>
+                        </h3>
                     </div>
                     <div style="background: linear-gradient(135deg, #56beff, #ffde59); padding: 30px; border-radius: 20px; color: white; text-align: center;">
                         <h3 style="margin-bottom: 15px; font-size: 1.5em;">生活中哪裡有AI呢？</h3>
@@ -40,16 +40,16 @@ const topicContents = {
                     
                     <div style="background: white; padding: 30px; border-radius: 20px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
                         <h3 style="color: #56beff; margin-bottom: 20px;">個人化廣告</h3>
-                        <p style="font-size: 1.2em; line-height: 2;">
+                        <h3 style="line-height: 2;">
                             網路購物時平台透過分析你的消費和瀏覽紀錄，找出你可能會喜歡的產品，並推薦給你一份特別為你打造的廣告。
-                        </p>
+                        </h3>
                     </div>
 
                     <div style="background: white; padding: 30px; border-radius: 20px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
                         <h3 style="color: #56beff; margin-bottom: 20px;">AI 查詢結果概述</h3>
-                        <p style="font-size: 1.2em; line-height: 2;">
+                        <h3 style="line-height: 2;">
                             當你上網查詢時，搜尋結果出現了一欄概述，那是 AI 先看了符合搜尋關鍵字的資料，並幫你整理成一份簡單的報告，讓你能馬上掌握你要的結果。
-                        </p>
+                        </h3>
                     </div>
                 `
             },
@@ -74,9 +74,9 @@ const topicContents = {
 
                     <div style="background: linear-gradient(135deg, #56beff, #ffde59); padding: 30px; border-radius: 20px; color: white; text-align: center;">
                         <h3 style="margin-bottom: 15px; font-size: 1.5em;">還有更多...</h3>
-                        <p style="font-size: 1.2em; line-height: 2;">
+                        <h3 style=" line-height: 2;">
                             雖然AI不能取代人類，但AI的能力正在不斷進步，未來還會有更多令人驚奇的功能！
-                        </p>
+                        </h3>
                     </div>
                 `
             }
@@ -93,9 +93,9 @@ const topicContents = {
                     
                     <div style="background: white; padding: 30px; border-radius: 20px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
                         <h3 style="color: #56beff; margin-bottom: 20px;">步驟一：選擇AI工具</h3>
-                        <p style="font-size: 1.2em; line-height: 2; margin-bottom: 15px;">
+                        <h3 style="line-height: 2; margin-bottom: 15px;">
                             常見的AI聊天工具有：
-                        </p>
+                        </h3>
                         <ul style="list-style: none; padding: 0;">
                             <li style="padding: 15px; margin: 10px 0; background: #fff9e6; border-radius: 15px;">
                                 <strong>ChatGPT</strong> - 語言流暢自然，適合解決一般日常任務，也擅長創意和腦力激盪，不過可能過度自信地回答錯誤內容
@@ -149,9 +149,9 @@ const topicContents = {
                     
                     <div style="background: white; padding: 30px; border-radius: 20px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
                         <h3 style="color: #56beff; margin-bottom: 20px;">現在輪到你了！</h3>
-                        <p style="font-size: 1.2em; line-height: 2; margin-bottom: 20px;">
+                        <h3 style="line-height: 2; margin-bottom: 20px;">
                             下面提供前面所介紹的AI工具連結，請點擊按鈕去網站上試著輸入問題，看看AI如何回答：
-                        </p>
+                        </h3>
                         <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
                             <a href="https://chatgpt.com/" target="_blank" style="text-decoration: none;">
                                 <div style="padding: 15px 30px; background: #fff9e6; border-radius: 15px; color: #333; border: 2px solid #ffde59; transition: transform 0.2s;">
@@ -180,18 +180,18 @@ const topicContents = {
                     </div>
                     <div style="background: white; padding: 30px; border-radius: 20px; margin-bottom: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
                         <h3 style="color: #56beff; margin-bottom: 20px;">進階！</h3>
-                        <p style="font-size: 1.2em; line-height: 2; margin-bottom: 20px;">
+                        <h3 style=" line-height: 2; margin-bottom: 20px;">
                             來玩玩看吧！這裡設定了兩個角色，作家和老師，你可以隨意輸入主題，觀察 AI 如何像人類一樣思考與修改文章！
-                        </p>
+                        </h3>
                         <button class="nav-button" onclick="window.open('https://ixqvzzfzpyxa24qd3enmnu.streamlit.app/', '_blank')">
                             開啟 AI 實作練習
                         </button>
                     </div>
                     <div style="background: linear-gradient(135deg, #56beff, #ffde59); padding: 30px; border-radius: 20px; color: white; text-align: center; margin-top: 25px;">
                         <h3 style="margin-bottom: 15px; font-size: 1.5em;">恭喜你！</h3>
-                        <p style="font-size: 1.2em; line-height: 2;">
+                        <h3 style=" line-height: 2;">
                             你已經學會如何使用AI了！記得：不要怕犯錯，多練習就會越來越熟練！
-                        </p>
+                        </h3>
                     </div>
                 `
             }
@@ -430,5 +430,4 @@ function updateNavigationButtons() {
         nextBtn.disabled = false;
     }
 }
-
 
