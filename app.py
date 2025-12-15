@@ -14,7 +14,7 @@ st.markdown("""
     .stApp { background-color: #f0a844; }
     h1 { color: #ff914d; }
     .stButton button {
-        background: linear-gradient(#fae86b, #f0a844, #f6721d);
+        background: #56beff;
         color: white;
         border: none;
         border-radius: 20px;
@@ -23,7 +23,7 @@ st.markdown("""
     }
     .stButton button:hover {
         transform: translateY(-3px) scale(1.05);
-        box-shadow: 0 6px 15px black;
+        box-shadow: 0 6px 10px black;
     }
     .st.write {
         background: #fae86b;
@@ -34,9 +34,15 @@ st.markdown("""
         color: white;
         font-weight: bold;
     }
+    .st.info{
+        background-color: #56beff;
+        opacity: 0.7;
+        color: white;
+    }
     /* 側邊欄樣式優化 */
     section[data-testid="stSidebar"] {
-        background-color: #fff9e6;
+        background-color: black;
+        color: #ff914d;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -81,7 +87,7 @@ def get_ai_response(client, role_prompt, user_input):
 
 # ===== 4. 網頁介面 =====
 st.title("AI 寫作----AI代理設計模式")
-st.markdown("###你可以在側邊欄選擇預設/自訂角色，再輸入主題，並觀察 AI 如何學習")
+st.markdown("### 你可以在側邊欄選擇預設/自訂角色，再輸入主題，並觀察 AI 如何學習")
 
 # 輸入區
 col1, col2 = st.columns([1, 1.5])
