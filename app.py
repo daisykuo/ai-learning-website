@@ -12,7 +12,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     .stApp { background-color: black; }
-    h1 { color: ##f0a844; }
+    h1 { color: #f0a844; }
     .stButton button {
         background: #56beff;
         color: white;
