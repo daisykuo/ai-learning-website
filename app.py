@@ -11,7 +11,7 @@ st.set_page_config(
 # 自訂 CSS，讓它看起來跟你的 HTML 網站風格一致
 st.markdown("""
 <style>
-    .stApp { background-color: #f0a844; }
+    .stApp { background-color: black; }
     h1 { color: #ff914d; }
     .stButton button {
         background: #56beff;
@@ -151,5 +151,6 @@ with col2:
             st.markdown(res['final'])
     else:
         st.write("👈 請在左邊輸入主題並按下開始按鈕，結果會顯示在這裡！")
+
 
 
