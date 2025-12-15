@@ -37,7 +37,7 @@ st.markdown("""
     .st.info{
         background-color: #56beff;
         opacity: 0.8;
-        color: white;
+        color: #ff914d!important;
     }
     /* 側邊欄樣式優化 */
     section[data-testid="stSidebar"] {
@@ -151,4 +151,5 @@ with col2:
             st.markdown(res['final'])
     else:
         st.write("👈 請在左邊輸入主題並按下開始按鈕，結果會顯示在這裡！")
+
 
