@@ -12,17 +12,18 @@ st.set_page_config(
 st.markdown("""
 <style>
     .stApp { background-color: black; }
-    h1 { color: #ff914d; }
+    h1 { color: ##f0a844; }
     .stButton button {
         background: #56beff;
         color: white;
         border: none;
         border-radius: 20px;
         font-weight: bold;
-        transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     }
     .stButton button:hover {
-        transform: translateY(-3px) scale(1.05);
+        background: #56beff;
+        transform: translateY(-2px) scale(1.05);
         box-shadow: 0 6px 10px black;
     }
     .st.write {
@@ -36,13 +37,13 @@ st.markdown("""
     }
     .st.info{
         background-color: #56beff;
-        opacity: 0.8;
-        color: #ff914d!important;
+        opacity: 0.7;
+        color: white;
     }
     /* 側邊欄樣式優化 */
     section[data-testid="stSidebar"] {
         background-color: black;
-        color: #ff914d;
+        color: #ff914d!important;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -151,6 +152,3 @@ with col2:
             st.markdown(res['final'])
     else:
         st.write("👈 請在左邊輸入主題並按下開始按鈕，結果會顯示在這裡！")
-
-
-
