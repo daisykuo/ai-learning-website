@@ -5,14 +5,13 @@ import os
 # ===== 1. 雲端環境設定 =====
 st.set_page_config(
     page_title="AI 寫作實作區",
-    page_icon="🤖",
     layout="wide"
 )
 
 # 自訂 CSS，讓它看起來跟你的 HTML 網站風格一致
 st.markdown("""
 <style>
-    .stApp { background-color: #ffffff; }
+    .stApp { background-color: #f0a844; }
     h1 { color: #ff914d; }
     .stButton button {
         background: linear-gradient(135deg, #4fd843, #ffde59);
@@ -45,7 +44,7 @@ except:
 def get_ai_response(client, role_prompt, user_input):
     try:
         completion = client.chat.completions.create(
-            model="llama3-8b-8192",
+            model="openai/gpt-oss-120b",
             messages=[
                 {"role": "system", "content": role_prompt},
                 {"role": "user", "content": user_input}
